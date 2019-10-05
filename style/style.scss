@@ -898,9 +898,9 @@ img {
         height: 44px;
     }
 
-    .navbar-brand img {
-        height: 57px;
-    }
+    // .navbar-brand img {
+    //     height: 57px;
+    // }
  
     .header-content .section-title {
         margin-bottom: 17px;
@@ -995,10 +995,7 @@ img {
 
 @media only screen and (max-width: 992px) {
     .navbar-brand {
-         font-size: 34px;
-        img {
-            width: 53px;
-        }
+        font-size: 34px;
     }
     .navbar-nav {
         background-color: rgba(0,0,0, 0.2);
@@ -1227,9 +1224,6 @@ img {
     }
     .navbar-brand {
         font-size: 30px;
-        img {
-            width: 46px;
-        }
     }
     .statistics-numbers {
         font-size: 26px;
