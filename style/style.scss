@@ -80,11 +80,12 @@ img {
 }
 
 .navbar-brand {
-	display: flex;
-	align-items: center;
 	font-size: 38px;
 	color: #ffffff;
-	font-weight: 600;
+    font-weight: 600;
+    &:hover {
+        color: #ffffff;
+    }
 }
 .navbar-brand {
     a {
@@ -95,6 +96,9 @@ img {
     img { 
         margin-right: 10px;	
     }
+}
+.brand-name {
+    vertical-align: middle;
 }
 
 .main-header {
@@ -508,7 +512,7 @@ img {
 
 .our-happy-client {
     padding-top: 20px;
-    background-image: url(../images/our-client-bg.png);
+    background-image: url(../images/our-client-bg.webp);
     background-color: #333;
     background-repeat: no-repeat;
     background-size: cover;

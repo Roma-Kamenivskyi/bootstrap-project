@@ -94,15 +94,13 @@ img {
 }
 
 .navbar-brand {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-size: 38px;
   color: #ffffff;
   font-weight: 600;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
 }
 
 .navbar-brand a {
@@ -111,6 +109,10 @@ img {
 
 .navbar-brand img {
   margin-right: 10px;
+}
+
+.brand-name {
+  vertical-align: middle;
 }
 
 .main-header .nav-link {
@@ -616,7 +618,7 @@ img {
 
 .our-happy-client {
   padding-top: 20px;
-  background-image: url(../images/our-client-bg.png);
+  background-image: url(../images/our-client-bg.webp);
   background-color: #333;
   background-repeat: no-repeat;
   background-size: cover;
